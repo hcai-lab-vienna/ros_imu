@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='bernhard',
     maintainer_email='bernhard-hoerl@gmx.at',
-    description='ROS2 wrapper for serial IMU data.'
+    description='ROS2 wrapper for serial IMU data.',
     license='Apache License 2.0',
     extras_require={
         'test': [
