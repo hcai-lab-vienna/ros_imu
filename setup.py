@@ -4,7 +4,7 @@ package_name = 'ros_imu'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.2.0',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -17,11 +17,7 @@ setup(
     maintainer_email='bernhard-hoerl@gmx.at',
     description='ROS2 wrapper for serial IMU data.',
     license='Apache License 2.0',
-    extras_require={
-        'test': [
-            'pytest',
-        ],
-    },
+    extras_require={},
     entry_points={
         'console_scripts': [
             'ros_imu_node = ros_imu.ros_imu_node:main',
